@@ -6,7 +6,7 @@ module MsRest
   #
   # Class which handles retry policy.
   #
-  class RetryPolicyMiddleware < Faraday::Response::Middleware
+  class RetryPolicyMiddleware < Faraday::Retry::Middleware
     #
     # Initializes a new instance of the RetryPolicyMiddleware class.
     #

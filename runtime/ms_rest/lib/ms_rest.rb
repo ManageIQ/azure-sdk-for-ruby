@@ -5,6 +5,7 @@
 require 'base64'
 require 'openssl'
 require 'faraday'
+require 'faraday/retry'
 require 'timeliness'
 require 'ms_rest/version'
 
